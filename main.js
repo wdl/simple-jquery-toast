@@ -14,6 +14,7 @@ const showToast = function (text, config = {}) {
                     .css('display', 'none')
                     .css('position', 'fixed')
                     .css('top', setting.top + 'px')
+                    .css('left', '0')
                     .css('width', '100%')
                     .css('text-align', 'center')
                     .append(
